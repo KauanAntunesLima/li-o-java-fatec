@@ -7,7 +7,7 @@ public class Comprimento {
         double centimetros = scanner.nextDouble();
         scanner.close();
 
-        Double conversao = centimetros / 2.54;
+        double conversao = centimetros / 2.54;
 
         System.out.println("A conversão em polegadas é: " + conversao);
     }

@@ -7,7 +7,7 @@ public class Temperatura{
         double fahrenheit = scanner.nextDouble();
         scanner.close();
         
-        Double calculo = 5.0 * (fahrenheit - 32) / 9;
+        double calculo = 5.0 * (fahrenheit - 32) / 9;
 
         System.out.println("A temperatura convertida para Celsius é: " + calculo);
     }
